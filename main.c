@@ -1,3 +1,4 @@
+// psuedocode 
 fd = socket()
 bind(fd, address)
 listen(fd)

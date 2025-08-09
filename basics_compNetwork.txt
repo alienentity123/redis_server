@@ -5,3 +5,13 @@ Transmission Media: The physical or wireless medium through which data travels b
 Wired media: Ethernet cables, optical fiber.
 Wireless media: Wi-Fi, Bluetooth, infrared
 Service Provider Networks: Networks offered by external providers that allow users or organizations to lease network access and capabilities. This includes internet providers, mobile carriers, etc.
+
+
+How Does a Computer Network Work
+Basics building blocks of a Computer network are Nodes and Links.
+
+A Network Node can be illustrated as Equipment for Data Communication like a Modem, Router, etc., or Equipment of a Data Terminal like connecting two computers or more.
+Link in Computer Networks can be defined as wires or cables or free space of wireless networks (as shown in the below diagram)
+The working of Computer Networks can be simply defined as rules or protocols which help in sending and receiving data via the links which allow Computer networks to communicate.
+Each device has an IP Address, that helps in identifying the device.
+A firewall is a network security device either hardware or software-based which monitors all incoming and outgoing traffic and based on a defined set of security rules it accepts, rejects, or drops that specific traffic .

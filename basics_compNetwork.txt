@@ -25,3 +25,9 @@ Encryption: The process of encoding data to prevent unauthorized access. Commonl
 Intrusion Detection Systems (IDS): Tools that monitor network traffic for suspicious activity and potential threats.
 Access Control: Mechanisms that restrict access to network resources based on user identity and role.
 Regular Updates and Patching: Keeping software and hardware up to date to protect against vulnerabilities.
+
+
+Characteristics of Computer Networks
+Computer networks are systems that connect multiple devices to facilitate communication, resource sharing, and data transfer. 
+They possess several key characteristics that ensure efficient and secure operations. These characteristics include Security, Reliability, Scalability, 
+Performance, Fault Tolerance, and hardware and software support

@@ -22,5 +22,19 @@ int main(){
 
     struct sockaddr_in addr = {};
     addr.sin_family = AF_INET;
+    addr.sin_port = ntohs(1234);
+    addr.sin_addr.s_addr = ntohl(INADDR_LOOPBACK);
+    
+    int rv = connect(fd, (struct sockaddr *)&addr, sizeof(addr));
+    if (rv < 0){
+        die("connect()");
+    }
 
+    char msg[] = "hi";
+    write(fd, msg, strlen(msg));
+
+    char rbuf[64] = {};
+    ssize_t n = read(fd, rbuf, sizeof(rbuf) - 1);
+
+    
 }

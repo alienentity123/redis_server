@@ -13,8 +13,20 @@ static void msg(const char *msg){
 }
 
 static void die(const char *msg){
-    int err = errono;
+    int err = errno;
     fprintf(stderr, "[%d] %s\n", err, msg);
     abort();
 }
 
+static void do_something(int connfd){
+    char rbuf[64] = {};
+    ssize_t n = read(connfd, rbuf, sizeof(rbuf) - 1);
+    if (n < 0){
+        msg("read() error");
+        return;
+    }
+    fprintf(stderr, "client says: %s\n", rbuf);
+
+    char wbuf[] = "world";
+    write(connfd, wbuf, strlen(wbuf));
+}

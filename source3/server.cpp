@@ -30,3 +30,8 @@ static void do_something(int connfd){
     char wbuf[] = "world";
     write(connfd, wbuf, strlen(wbuf));
 }
+
+int main(){
+    int fd = socket(AF_INET, SOCK_STREAM, 0);
+
+}

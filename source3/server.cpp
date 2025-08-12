@@ -1,1 +1,20 @@
-struct myString{char *data; size_t length; size_t capacity};
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <errno.h>
+#include <unistd.h>
+#include <arpa/inet.h>
+#include <sys/socket.h>
+#include <netinet/ip.h>
+
+static void msg(const char *msg){
+    fprintf(stderr, "%s\n", msg);
+}
+
+static void die(const char *msg){
+    int err = errono;
+    fprintf(stderr, "[%d] %s\n", err, msg);
+    abort();
+}
+

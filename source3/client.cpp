@@ -13,3 +13,14 @@ static void die(const char *msg){
     fprintf(stderr, "[%d] %s\n", err, msg);
     abort();
 }
+
+int main(){
+    int fd = socket(AF_INET, SOCK_STREAM, 0);
+    if (fd< 0){
+        die("socket()");
+    }
+
+    struct sockaddr_in addr = {};
+    addr.sin_family = AF_INET;
+
+}

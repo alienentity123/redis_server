@@ -18,6 +18,19 @@ static void die(const char *msg){
     abort();
 }
 
+static int32_t read_full(int fd, char *buf, size_t n){
+    while (n>0){
+        size_t rv = read(fd, buf, n);
+        if (rv <= 0){
+            return -1; //error or expectedEOF
+        }
+        assert((size_t)rv <= n);
+        n-= (size_t)rv;
+        buf += rv;
+    }
+    return 0; //success 
+}
+
 int main(){
     int fd = socket(AF_INET, SOCK_STREAM, 0);
     if (fd< 0){

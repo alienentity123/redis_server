@@ -8,6 +8,10 @@
 #include <sys/socket.h>
 #include <netinet/ip.h>
 
+static void msg(const char *msg){
+    fprintf(stderr, "%s\n", msg);
+}
+
 static void die(const char *msg){
     int err = errno;
     fprintf(stderr, "[%d] %s\n", err, msg);

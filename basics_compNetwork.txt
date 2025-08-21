@@ -31,3 +31,6 @@ Characteristics of Computer Networks
 Computer networks are systems that connect multiple devices to facilitate communication, resource sharing, and data transfer. 
 They possess several key characteristics that ensure efficient and secure operations. These characteristics include Security, Reliability, Scalability, 
 Performance, Fault Tolerance, and hardware and software support
+
+
+under the c lanaguge better: know python, c++ and c 

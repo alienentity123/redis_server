@@ -7,3 +7,5 @@ Given an API with 2 methods: send data & receive data
 TCP byte stream and protocols 
 - Transmission control protocol = TCP is a fundamental protocol within the internet protocol suit or TCP?UIP responsible for reliable, ordered, and error checked delivery of data
 - Works in conjunction with IP (internet protocol) to ensure data "packets" reach their destiation on the cloud as needed
+
+add more stuff here (taking 107 in the fall)

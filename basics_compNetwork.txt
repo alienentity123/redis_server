@@ -34,3 +34,5 @@ Performance, Fault Tolerance, and hardware and software support
 
 
 under the c lanaguge better: know python, c++ and c 
+
+stuff

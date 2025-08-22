@@ -1,0 +1,8 @@
+🖥️ Guided Notes: Computer Engineering & the Technology that Powers Society
+1. What is Computer Engineering?
+
+Definition: A field at the intersection of electrical engineering and computer science.
+
+Focus: Designing and building computer hardware, software, and integrated systems.
+
+Applications: From microprocessors and embedded systems to large-scale cloud computing and AI.

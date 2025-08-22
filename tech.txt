@@ -6,3 +6,37 @@ Definition: A field at the intersection of electrical engineering and computer s
 Focus: Designing and building computer hardware, software, and integrated systems.
 
 Applications: From microprocessors and embedded systems to large-scale cloud computing and AI.
+
+
+2. Core Components of Computer Engineering
+A. Hardware
+
+Processors (CPU, GPU, TPU): Brain of the computer; execute instructions.
+
+Memory (RAM, Cache, Storage): Store and retrieve data.
+
+Motherboards & Buses: Connect all components.
+
+Specialized Chips: ASICs, FPGAs for custom tasks (cryptography, AI acceleration).
+
+B. Software
+
+Operating Systems (Windows, Linux, macOS): Manage hardware and resources.
+
+Programming Languages: Low-level (C, Assembly) vs. high-level (Python, Java).
+
+Embedded Systems Software: Runs on devices like cars, appliances, medical devices.
+
+C. Networking
+
+Internet Protocols (TCP/IP): Rules for data transfer.
+
+Wireless Communication: Wi-Fi, 5G, Bluetooth.
+
+Cloud Infrastructure: Data centers, edge computing.
+
+D. Integration of Hardware & Software
+
+IoT (Internet of Things): Everyday devices connected via sensors and microcontrollers.
+
+Cyber-Physical Systems: Self-driving cars, robotics, industrial automation.
